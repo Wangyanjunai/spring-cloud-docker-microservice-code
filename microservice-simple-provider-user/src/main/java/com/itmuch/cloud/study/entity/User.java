@@ -12,6 +12,7 @@ import java.math.BigDecimal;
 @Builder
 @Data
 @Entity
+//@NoArgsConstructor
 public class User implements Serializable {
 
     @Id
