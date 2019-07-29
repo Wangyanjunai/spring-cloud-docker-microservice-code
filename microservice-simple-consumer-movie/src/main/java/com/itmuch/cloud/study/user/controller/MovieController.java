@@ -10,6 +10,7 @@ import org.springframework.web.client.RestTemplate;
 
 /**
  * <pre>
+ * 参考学习网址：https://mp.weixin.qq.com/s/aGKw73tV-V1SU4t6Ih_5_w
  * @PackageName com.itmuch.cloud.study.user.controller
  * @ClassName MovieController
  * @Desc

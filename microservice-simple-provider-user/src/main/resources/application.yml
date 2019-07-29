@@ -12,3 +12,11 @@ logging:
     org.hibernate: INFO
     org.hibernate.type.descriptor.sql.BasicBinder: TRACE
     org.hibernate.type.descriptor.sql.BasicExtractor: TRACE
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*' #如需暴露所有监控端点可配置*
+    health:
+      #      是否展示显示健康详情
+      show-details: always
