@@ -1,14 +1,14 @@
 server:
-#  指定tomcat端口
+  #  鎸囧畾tomcat绔彛
   port: 8000
 spring:
   jpa:
-#    让hibernate打印执行的sql
+    #    璁﹉ibernate鎵撳嵃鎵ц鐨剆ql
     show-sql: true
 logging:
   level:
     root: INFO
-#    配置日志级别，让hibernate打印出执行的SQL参数
+    #    閰嶇疆鏃ュ織绾у埆锛岃hibernate鎵撳嵃鍑烘墽琛岀殑SQL鍙傛暟
     org.hibernate: INFO
     org.hibernate.type.descriptor.sql.BasicBinder: TRACE
     org.hibernate.type.descriptor.sql.BasicExtractor: TRACE
