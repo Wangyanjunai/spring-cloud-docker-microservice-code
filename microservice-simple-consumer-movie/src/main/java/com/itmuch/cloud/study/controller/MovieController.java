@@ -1,26 +1,13 @@
-package com.itmuch.cloud.study.user.controller;
+package com.itmuch.cloud.study.controller;
 
-import com.itmuch.cloud.study.user.entity.User;
+
+import com.itmuch.cloud.study.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
-
-/**
- * <pre>
- * 参考学习网址：https://mp.weixin.qq.com/s/aGKw73tV-V1SU4t6Ih_5_w
- * @PackageName com.itmuch.cloud.study.user.controller
- * @ClassName MovieController
- * @Desc
- * @WebSite https://www.potato369.com
- * @Author Jack
- * @Date 2019/7/29 11:58
- * @CreateBy IntellJ IDEA 2019.1.1
- * @Copyright Copyright (c) 2016 ~ 2020 版权所有 (C) 土豆互联科技(深圳)有限公司 https://www.potato369.com All Rights Reserved。
- * </pre>
- */
 @RestController
 @RequestMapping("/movies")
 public class MovieController {

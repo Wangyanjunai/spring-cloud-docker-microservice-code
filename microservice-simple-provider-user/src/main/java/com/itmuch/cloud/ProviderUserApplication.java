@@ -1,4 +1,4 @@
-package com.itmuch.cloud.study;
+package com.itmuch.cloud;
 
 import com.itmuch.cloud.study.entity.User;
 import com.itmuch.cloud.study.repository.UserRepository;
