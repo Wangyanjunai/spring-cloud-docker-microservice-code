@@ -38,7 +38,7 @@
 <!--    <module>microservice-consumer-movie-without-eureka</module>-->
     <module>microservice-discovery-eureka</module>
 <!--    <module>microservice-discovery-eureka-authenticating</module>-->
-<!--    <module>microservice-discovery-eureka-ha</module>-->
+    <module>microservice-discovery-eureka-ha</module>
 <!--    <module>microservice-file-upload</module>-->
 <!--    <module>microservice-gateway-zuul</module>-->
 <!--    <module>microservice-gateway-zuul-aggregation</module>-->
