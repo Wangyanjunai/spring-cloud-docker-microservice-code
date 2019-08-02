@@ -19,7 +19,8 @@ import java.math.BigDecimal;
 @NoArgsConstructor
 public class User implements Serializable {
  
-	private static final long serialVersionUID = 6376198967731549857L;
+	@Transient
+	private transient static final long serialVersionUID = 6376198967731549857L;
 
 	@Id
     @GeneratedValue(strategy = GenerationType.AUTO)
