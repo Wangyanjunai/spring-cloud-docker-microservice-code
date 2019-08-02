@@ -19,6 +19,7 @@ eureka:
     service-url:
       #指定eureka server通信地址，注意/eureka/小尾巴不能少
       defaultZone: http://localhost:8761/eureka/
+#属性配置的优先级高于代码配置      
 microservice-provider-user: 
   ribbon:
 #    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule     
