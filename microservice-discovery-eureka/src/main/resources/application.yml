@@ -3,8 +3,8 @@ server:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka/
-#是否要从其他Eureka Server实例获取数据
+      default-zone: http://localhost:8761/eureka/
+    #鏄惁瑕佷粠鍏朵粬Eureka Server瀹炰緥鑾峰彇鏁版嵁
     fetch-registry: false
-#是否要注册到其他Eureka Server实例
+    #鏄惁瑕佹敞鍐屽埌鍏朵粬Eureka Server瀹炰緥
     register-with-eureka: false
