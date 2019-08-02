@@ -16,6 +16,7 @@ import java.math.BigDecimal;
 @Data(staticConstructor = "UserFactory")
 @Entity
 @RequiredArgsConstructor
+@NoArgsConstructor
 public class User implements Serializable {
  
 	private static final long serialVersionUID = 6376198967731549857L;
