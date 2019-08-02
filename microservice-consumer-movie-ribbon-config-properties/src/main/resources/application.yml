@@ -23,4 +23,7 @@ eureka:
 #microservice-provider-user: 和上文细粒度配置类似，只需将目标服务名称前缀去掉即可。
 ribbon:
 #    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule     
-    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.WeightedResponseTimeRule     
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.WeightedResponseTimeRule
+    eager-load:
+      enabled: true
+      clients: microservice-provider-user      
