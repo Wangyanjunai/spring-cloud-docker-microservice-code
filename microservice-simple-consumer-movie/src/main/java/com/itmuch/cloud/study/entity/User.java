@@ -3,23 +3,30 @@ package com.itmuch.cloud.study.entity;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
-import java.io.Serializable;
 import java.math.BigDecimal;
+
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 @AllArgsConstructor
 @Builder
 @Data
-//@NoArgsConstructor
-public class User implements Serializable {
+@NoArgsConstructor
+public class User{
 
+	@JsonProperty(value = "id")
     private Long id;
 
+	@JsonProperty(value = "username")
     private String username;
 
+	@JsonProperty(value = "name")
     private String name;
 
+	@JsonProperty(value = "age")
     private Integer age;
 
+	@JsonProperty(value = "balance")
     private BigDecimal balance;
 }
