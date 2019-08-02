@@ -14,8 +14,7 @@ import org.springframework.context.annotation.Configuration;
  * <pre>
  * @PackageName com.itmuch.cloud.config
  * @ClassName RibbonConfiguration
- * @Desc 该类为Ribbon的配置类
- *       注意：该类不能放在主应用程序上下文@ComponentScan所扫描的包中，否则配置将会被所有Ribbon Client共享。
+ * @Desc
  * @WebSite https://www.potato369.com
  * @Author Jack
  * @Date 2019/8/2 18:15
@@ -24,7 +23,7 @@ import org.springframework.context.annotation.Configuration;
  * </pre>
  */
 @Configuration
-public class RibbonConfiguration {
+public class DefaultRibbonConfig {
 
     @Bean
     public IRule ribbonRule() {
