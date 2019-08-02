@@ -11,7 +11,7 @@
     <groupId>com.itmuch.cloud</groupId>
     <artifactId>microservice-discovery-eureka-ha</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>microservice-discovery-eureka-ha</name>
+    <name>micro-service-discovery-eureka-ha</name>
     <description>服务发现组件服务器。</description>
 
     <properties>

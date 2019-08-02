@@ -13,9 +13,8 @@ import java.math.BigDecimal;
 
 @AllArgsConstructor
 @Builder
-@Data
+@Data(staticConstructor = "UserFactory")
 @Entity
-@NoArgsConstructor
 @RequiredArgsConstructor
 public class User implements Serializable {
  

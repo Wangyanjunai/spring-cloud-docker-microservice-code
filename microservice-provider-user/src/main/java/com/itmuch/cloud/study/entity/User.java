@@ -3,7 +3,6 @@ package com.itmuch.cloud.study.entity;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -11,14 +10,13 @@ import java.math.BigDecimal;
 
 @AllArgsConstructor
 @Builder
-@Data
+@Data(staticConstructor = "UserFactory")
 @Entity
-@NoArgsConstructor
 public class User implements Serializable {
-	
-	private transient static final long serialVersionUID = 8847910606632419540L;
 
-	@Id
+    private transient static final long serialVersionUID = 8847910606632419540L;
+
+    @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 

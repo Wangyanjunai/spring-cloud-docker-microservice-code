@@ -11,7 +11,7 @@ eureka:
     hostname: peer1                             # 指定当profile=peer1时，主机名是peer1
   client:
     service-url:
-      defaultZone: http://peer2:8762/eureka/     # 将自己注册到peer2这个Eureka上面去
+      default-zone: http://peer2:8762/eureka/     # 将自己注册到peer2这个Eureka上面去
 ---
 spring:
   profiles: peer2
@@ -22,4 +22,4 @@ eureka:
     hostname: peer2
   client:
     service-url:
-      defaultZone: http://peer1:8761/eureka/
+      default-zone: http://peer1:8761/eureka/

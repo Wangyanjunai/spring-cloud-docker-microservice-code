@@ -11,7 +11,7 @@
     <groupId>com.itmuch.cloud</groupId>
     <artifactId>microservice-consumer-movie</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>microservice-consumer-movie</name>
+    <name>micro-service-consumer-movie</name>
     <description>电影服务消费者集群应用。</description>
 
     <properties>

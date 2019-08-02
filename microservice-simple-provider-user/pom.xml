@@ -11,7 +11,7 @@
     <groupId>com.itmuch.cloud</groupId>
     <artifactId>microservice-simple-provider-user</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>microservice-simple-provider-user</name>
+    <name>micro-service-simple-provider-user</name>
     <description>用户微服务提供者单体应用。</description>
     <properties>
         <spring-cloud.version>Finchley.SR3</spring-cloud.version>
