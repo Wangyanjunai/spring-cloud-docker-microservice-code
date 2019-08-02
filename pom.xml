@@ -31,7 +31,7 @@
 <!--    <module>microservice-consumer-movie-feign-logging</module>-->
 <!--    <module>microservice-consumer-movie-feign-manual</module>-->
 <!--    <module>microservice-consumer-movie-feign-multiple-params</module>-->
-<!--    <module>microservice-consumer-movie-ribbon</module>-->
+   <module>microservice-consumer-movie-ribbon</module>
 <!--    <module>microservice-consumer-movie-ribbon-hystrix</module>-->
 <!--    <module>microservice-consumer-movie-ribbon-hystrix-turbine-mq</module>-->
 <!--    <module>microservice-consumer-movie-understanding-metadata</module>-->
