@@ -4,7 +4,9 @@ management:
   endpoints:
     web:
       exposure:
-        include: '*'    #如需暴露所有监控端点可配置*
+        #如需暴露所有监控端点可配置 *
+        include: '*'    
+  endpoint:
     health:
-#      是否展示显示健康详情
+      #展示显示健康详情
       show-details: always
