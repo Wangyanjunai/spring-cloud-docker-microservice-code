@@ -27,7 +27,8 @@ import com.itmuch.cloud.study.entity.User;
  * @Copyright Copyright (c) 2016 ~ 2020 版权所有 (C) 土豆互联科技（深圳）有限公司 https://www.potato369.com All Rights Reserved。
  * </pre>
  */
-@FeignClient(name = "microservice-provider-user")
+//@FeignClient(name = "microservice-provider-user") // 第一种方式，推荐，
+@FeignClient(name = "abcde", url = "http://localhost:8000/")// 第二种方式，可以选择，但是name属性必需写，不能省略
 public interface UserFeignClient {
 
 	@GetMapping(value = "/users/{id}")
