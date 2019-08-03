@@ -37,7 +37,8 @@
    <module>microservice-consumer-movie-ribbon-config-properties</module>
    <module>microservice-consumer-movie-ribbon-custom-config-java</module>
    <module>microservice-consumer-movie-ribbon-custom-config-properties</module>
-<!--    <module>microservice-consumer-movie-ribbon-hystrix</module>-->
+   <module>microservice-consumer-movie-ribbon-hystrix</module>
+<!--    <module>microservice-consumer-movie-ribbon-hystrix-common</module> -->
 <!--    <module>microservice-consumer-movie-ribbon-hystrix-turbine-mq</module>-->
 <!--    <module>microservice-consumer-movie-understanding-metadata</module>-->
 <!--    <module>microservice-consumer-movie-without-eureka</module>-->
