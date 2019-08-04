@@ -9,9 +9,9 @@
         <relativePath/>
     </parent>
     <groupId>com.itmuch.cloud</groupId>
-    <artifactId>microservice-consumer-movie-feign-hystrix-fallback-factory</artifactId>
+    <artifactId>microservice-consumer-movie-feign-hystrix-fallback</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>micro-service-consumer-movie-feign-hystrix-fallback-factory</name>
+    <name>micro-service-consumer-movie-feign-hystrix-fallback</name>
     <description>电影服务消费者集群应用。</description>
 
     <properties>
@@ -59,7 +59,7 @@
         </dependencies>
     </dependencyManagement>
     <build>
-        <finalName>consumer-movie-feign-hystrix-fallback-factory</finalName>
+        <finalName>consumer-movie-feign-hystrix-fallback</finalName>
         <!--重要 如果不设置resource 会导致application.yaml中的@@找不到pom文件中的配置-->
         <resources>
             <resource>
