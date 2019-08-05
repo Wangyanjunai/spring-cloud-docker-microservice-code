@@ -5,8 +5,8 @@ management:  endpoint:    health:
   endpoints:
     web:
       exposure:
-        #如需暴露所有监控端点可配置*
-        include: 'hystrix.stream'    
+                        #如需暴露所有监控端点可配置*
+        include: '*'    
 spring:
   application:
     #指定注册到eureka server上的服务名称，对于电影微服务，本系列将名称设为microservice-consumer-movie
