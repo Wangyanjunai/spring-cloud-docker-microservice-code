@@ -28,7 +28,7 @@
 <!--    <module>microservice-consumer-movie-feign-customizing</module>-->
    <module>microservice-consumer-movie-feign-hystrix-fallback</module>
    <module>microservice-consumer-movie-feign-hystrix-fallback-factory</module>
-<!--    <module>microservice-consumer-movie-feign-hystrix-fallback-stream</module>-->
+   <module>microservice-consumer-movie-feign-hystrix-stream</module>
 <!--    <module>microservice-consumer-movie-feign-logging</module>-->
 <!--    <module>microservice-consumer-movie-feign-manual</module>-->
    <module>microservice-consumer-movie-feign-multiple-params</module>
@@ -53,8 +53,8 @@
 <!--    <module>microservice-gateway-zuul-filter</module>-->
 <!--    <module>microservice-gateway-zuul-filter-groovy</module>-->
 <!--    <module>microservice-gateway-zuul-reg-exp</module>-->
-<!--    <module>microservice-hystrix-dashboard</module>-->
-<!--    <module>microservice-hystrix-turbine</module>-->
+   <module>microservice-hystrix-dashboard</module>
+   <module>microservice-hystrix-turbine</module>
 <!--    <module>microservice-hystrix-turbine-mq</module>-->
    <module>microservice-provider-user</module>
 <!--    <module>microservice-provider-user-ip</module>-->

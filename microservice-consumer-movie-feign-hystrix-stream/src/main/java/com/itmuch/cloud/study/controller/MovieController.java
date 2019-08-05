@@ -4,8 +4,6 @@ package com.itmuch.cloud.study.controller;
 import com.itmuch.cloud.study.entity.User;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 
-import lombok.extern.slf4j.Slf4j;
-
 import java.math.BigDecimal;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,7 +15,6 @@ import org.springframework.web.client.RestTemplate;
 
 @RestController
 @RequestMapping("/movies")
-@Slf4j
 public class MovieController {
 
     @Autowired
@@ -31,8 +28,7 @@ public class MovieController {
         // ......电影相关业务逻逻辑
     }
     
-    public User findByIdFallback(Long id, Throwable throwable) {
-    	log.error("进入回退方法", throwable);
+    public User findByIdFallback(Long id) {
 		return new User(Long.valueOf(0L), "accountDefault", "默认用户", Integer.valueOf(0), BigDecimal.valueOf(0));
 	}
 }
