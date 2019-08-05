@@ -46,7 +46,7 @@
 <!--    <module>microservice-discovery-eureka-authenticating</module>-->
    <module>microservice-discovery-eureka-ha</module>
 <!--    <module>microservice-file-upload</module>-->
-<!--    <module>microservice-gateway-zuul</module>-->
+   <module>microservice-gateway-zuul</module>
 <!--    <module>microservice-gateway-zuul-aggregation</module>-->
 <!--    <module>microservice-gateway-zuul-fallback</module>-->
 <!--    <module>microservice-gateway-zuul-file-upload</module>-->
