@@ -7,7 +7,7 @@ spring:
     show-sql: true
   application:
     #指定注册到eureka server上的服务名称，对于电影微服务，本系列将名称设为microservice-consumer-movie
-    name: microservice-provider-user-multiple-params
+    name: microservice-provider-user
 logging:
   level:
     root: INFO

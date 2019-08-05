@@ -29,6 +29,6 @@ public class MovieController {
     }
     
     public User findByIdFallback(Long id) {
-		return new User(id, "accountDefault", "默认用户", 0, new BigDecimal(1));
+		return new User(Long.valueOf(0L), "accountDefault", "默认用户", Integer.valueOf(0), BigDecimal.valueOf(0));
 	}
 }
