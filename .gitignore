@@ -6,7 +6,7 @@ target/
 .classpath
 .project
 .settings
-/.factorypath
+.factorypath
 
 # IDEA metadata and output dirs
 *.iml
