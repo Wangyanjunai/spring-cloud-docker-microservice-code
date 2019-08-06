@@ -1,0 +1,6 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: microservice-config-client-refresh-cloud-bus
+management:  endpoints:    web:      exposure:        include:        -  'refresh'   
