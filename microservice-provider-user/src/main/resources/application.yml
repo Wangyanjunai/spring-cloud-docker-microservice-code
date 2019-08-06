@@ -1,6 +1,6 @@
 server:
   #指定tomcat端口
-  port: 8002
+  port: 8000
 spring:
   jpa:
     #让hibernate打印执行的sql
