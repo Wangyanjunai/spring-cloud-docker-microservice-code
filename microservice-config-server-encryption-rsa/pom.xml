@@ -49,6 +49,9 @@
             <resource>
                 <directory>src/main/resources</directory>
                 <filtering>true</filtering>
+                <excludes>
+					<exclude>**/*.jks</exclude>
+				</excludes>
             </resource>
         </resources>
         <!--重要 如果不设置resource 会导致application.yaml中的@@找不到pom文件中的配置-->
