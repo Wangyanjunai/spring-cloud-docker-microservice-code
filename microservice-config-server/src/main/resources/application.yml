@@ -10,3 +10,14 @@ spring:
           uri: https://github.com/Wangyanjunai/spring-cloud-config-repo.git # 配置Git仓库的地址
           username: 406151651@qq.com                                        # Git仓库的账号
           password: wy1wj2yj3!@#                                            # Git仓库的密码
+          repos:
+            team-a:
+              pattern:  microservice-*
+              clone-on-start: true
+              uri: https://github.com/Wangyanjunai/spring-cloud-config-repo.git
+              username: 406151651@qq.com                                        # Git仓库的账号
+              password: wy1wj2yj3!@#                                            # Git仓库的密码
+logging:
+  level:
+    org.springframework.cloud: DEBUG
+    org.springframework.boot: DEBUG          
