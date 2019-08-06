@@ -6,7 +6,7 @@ eureka:
       default-zone: http://localhost:8761/eureka/            
 spring: 
   application:
-    name: microservice-gateway-zuul
+    name: microservice-gateway-zuul-filter
 management:
   endpoints:
     web:
