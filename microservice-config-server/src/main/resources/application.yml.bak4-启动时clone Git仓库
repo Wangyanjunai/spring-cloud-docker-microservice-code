@@ -1,19 +1,12 @@
+server:
+  port: 8080
 spring:
+  application:
+    name: microservice-config-server
   cloud:
     config:
       server:
         git:
-          uri: https://github.com/spring-cloud-samples/config-repo
-          repos:
-            team-a:
-                pattern:  microservice-*
-                clone-on-start: true
-                uri: http://git.oschina.net/itmuch/spring-cloud-config-repo
-logging:
-  level:
-    org.springframework.cloud: DEBUG
-    org.springframework.boot: DEBUG
-
-# 测试：
-# 1.观察启动日志
-# 2.访问http://localhost:8080/microservice-foo/dev
+          uri: https://github.com/Wangyanjunai/spring-cloud-config-repo.git #配置Github仓库的地址
+          username:                                       #Github仓库的账号
+          password:                                       #Github仓库的密码         
