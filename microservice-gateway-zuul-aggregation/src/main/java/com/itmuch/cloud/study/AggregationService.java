@@ -19,7 +19,7 @@ public class AggregationService {
 		// 创建一个被观察者
 		return Observable.unsafeCreate(observer -> {
 			// 请求用户微服务的/users/{id}端点
-			User user = restTemplate.getForObject("http://microservice-provider-user/users/{id}", User.class, id);
+			User user = this.restTemplate.getForObject("http://microservice-provider-user/users/{id}", User.class, id);
 			observer.onNext(user);
 			observer.onCompleted();
 		});
@@ -29,8 +29,7 @@ public class AggregationService {
 	public Observable<User> getMovieUserByUserId(Long id) {
 		return Observable.unsafeCreate(observer -> {
 			// 请求电影微服务的/movies/users/{id}端点
-			User movieUser = restTemplate.getForObject("http://microservice-consumer-movie/movies/users/{id}",
-					User.class, id);
+			User movieUser = this.restTemplate.getForObject("http://microservice-consumer-movie/movies/users/{id}", User.class, id);
 			observer.onNext(movieUser);
 			observer.onCompleted();
 		});
