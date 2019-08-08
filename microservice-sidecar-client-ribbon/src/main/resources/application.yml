@@ -1,0 +1,23 @@
+server:
+  port: 8070
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      default-zone: http://localhost:8761/eureka/            
+spring: 
+  application:
+    name: microservice-sidecar-node-service
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
+sidecar:
+  port: 8060                                          #Node.js微服务的端口
+  health-uri: http://localhost:8060/health.json       #Node.js微服务的健康检查URL
+             
