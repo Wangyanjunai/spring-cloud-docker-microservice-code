@@ -48,7 +48,7 @@
 <!--    <module>microservice-file-upload</module>-->
    <module>microservice-gateway-zuul</module>
    <module>microservice-gateway-zuul-aggregation</module>
-<!--    <module>microservice-gateway-zuul-fallback</module>-->
+   <module>microservice-gateway-zuul-fallback</module>
 <!--    <module>microservice-gateway-zuul-file-upload</module>-->
    <module>microservice-gateway-zuul-filter</module>
 <!--    <module>microservice-gateway-zuul-filter-groovy</module>-->
@@ -61,7 +61,7 @@
    <module>microservice-provider-user-multiple-params</module>
 <!--    <module>microservice-provider-user-my-metadata</module>-->
 <!--    <module>microservice-provider-user-with-auth</module>-->
-<!--    <module>microservice-sidecar</module>-->
+   <module>microservice-sidecar</module>
 <!--    <module>microservice-sidecar-client-ribbon</module>-->
    <module>microservice-simple-consumer-movie</module>
    <module>microservice-simple-provider-user</module>
