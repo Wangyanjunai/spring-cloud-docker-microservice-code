@@ -9,9 +9,9 @@
         <relativePath/>
     </parent>
     <groupId>com.itmuch.cloud</groupId>
-    <artifactId>microservice-config-client-eureka</artifactId>
+    <artifactId>microservice-config-server-eureka</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>micro-service-config-client-eureka</name>
+    <name>micro-service-config-server-eureka</name>
     <description>服务发现组件服务器。</description>
 
     <properties>
@@ -26,18 +26,14 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-        <dependency>
-	      	<groupId>org.springframework.boot</groupId>
-	      	<artifactId>spring-boot-starter-web</artifactId>
-    	</dependency>
 		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-config-client</artifactId>
+		  <groupId>org.springframework.cloud</groupId>
+		  <artifactId>spring-cloud-config-server</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-actuator</artifactId>
-		</dependency>
+	    <dependency>
+	      <groupId>org.springframework.cloud</groupId>
+	      <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+	    </dependency>		
     </dependencies>
     <dependencyManagement>
         <dependencies>
@@ -51,7 +47,7 @@
         </dependencies>
     </dependencyManagement>
     <build>
-        <finalName>config-client-eureka</finalName>
+        <finalName>config-server-eureka</finalName>
         <!--重要 如果不设置resource 会导致application.yaml中的@@找不到pom文件中的配置-->
         <resources>
             <resource>
