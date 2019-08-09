@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: microservice-foo            #对应config server所获取的配置文件的{application}
+  cloud:
+    config:
+      profile: dev                    #profile对应config server所获取的配置文件中的{profile}             
+      label: master                   #指定Git仓库的分支，对应config server所获取的配置文件的{label}
+      discovery:
+        enabled: true                 #表示使用服务发现组件中的config server，而不是自己指定的config server的uri，默认微false        service-id: microservice-config-server-eureka     #指定config server在服务发现组件中的serviceId，默认是configserver
+eureka:  client:    service-url: 
+      default-zone: http://localhost:8761/eureka/                           
