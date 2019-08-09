@@ -9,9 +9,9 @@
         <relativePath/>
     </parent>
     <groupId>com.itmuch.cloud</groupId>
-    <artifactId>microservice-config-client</artifactId>
+    <artifactId>microservice-config-client-authenticating</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>micro-service-config-client</name>
+    <name>micro-service-config-client-authenticating</name>
     <description>服务发现组件服务器。</description>
 
     <properties>
@@ -51,7 +51,7 @@
         </dependencies>
     </dependencyManagement>
     <build>
-        <finalName>config-client</finalName>
+        <finalName>config-client-authenticating</finalName>
         <!--重要 如果不设置resource 会导致application.yaml中的@@找不到pom文件中的配置-->
         <resources>
             <resource>
