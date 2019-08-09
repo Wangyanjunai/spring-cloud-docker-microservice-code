@@ -1,0 +1,17 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: microservice-config-server-refresh-cloud-bus
+  cloud:    bus:      trace:        enabled: true                                                       # 开启cloud bus的跟踪
+    config:
+      server:
+        git:
+          uri: https://github.com/Wangyanjunai/spring-cloud-config-repo.git #配置Github仓库的地址
+          username:                                                         #Github仓库的账号
+          password:                                                         #Github仓库的密码
+  rabbitmq:
+    host: localhost
+    port: 5762
+    username: guest
+    password: guest          
