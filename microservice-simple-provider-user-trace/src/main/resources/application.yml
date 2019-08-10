@@ -12,7 +12,8 @@ logging:
     org.hibernate: INFO
     org.hibernate.type.descriptor.sql.BasicBinder: TRACE
     org.hibernate.type.descriptor.sql.BasicExtractor: TRACE
-    org.springframework.web.servlet.DispatcherServlet: DEBUG
+    org.springframework.cloud.sleuth: DEBUG
+#    org.springframework.web.servlet.DispatcherServlet: DEBUG
 management:
   endpoints:
     web:

@@ -11,4 +11,5 @@ management:
       #展示显示健康详情
       show-details: always
 logging:  level:    root: INFO
-    org.springframework.web.servlet.DispatcherServlet: DEBUG      
+    org.springframework.cloud.sleuth: DEBUG
+#    org.springframework.web.servlet.DispatcherServlet: DEBUG      
