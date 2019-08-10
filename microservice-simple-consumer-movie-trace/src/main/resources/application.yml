@@ -12,4 +12,5 @@ management:
       show-details: always
 logging:  level:    root: INFO
     org.springframework.cloud.sleuth: DEBUG
-#    org.springframework.web.servlet.DispatcherServlet: DEBUG      
+#    org.springframework.web.servlet.DispatcherServlet: DEBUG
+spring:  application:    name: microservice-consumer-movie     

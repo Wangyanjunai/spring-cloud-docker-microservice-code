@@ -69,6 +69,7 @@
    <module>microservice-simple-consumer-movie-trace</module>
    <module>microservice-simple-provider-user</module>
    <module>microservice-simple-provider-user-trace</module>
+   <module>microservice-simple-provider-user-trace-elk</module>
 <!--    <module>microservice-consumer-movie-ribbon-customizing</module>-->
 <!--    <module>microservice-consumer-movie-ribbon-customizing-properties</module>-->
 <!--    <module>additional-microservice-consumer-movie-ribbon-hystrix-get-the-exception</module>-->
