@@ -57,6 +57,7 @@
    <module>microservice-hystrix-turbine</module>
 <!--    <module>microservice-hystrix-turbine-mq</module>-->
    <module>microservice-provider-user</module>
+   <module>microservice-provider-user-authenticating</module>
 <!--    <module>microservice-provider-user-ip</module>-->
    <module>microservice-provider-user-multiple-params</module>
    <module>microservice-provider-user-sleuth</module>
