@@ -1,10 +1,11 @@
 server:
-  #  指定tomcat端口
+  #指定tomcat端口
   port: 8000
-spring:
+spring:  application:    name: microservice-provider-user
   jpa:
     #让hibernate打印执行的sql
     show-sql: true
+    open-in-view: false
 logging:
   level:
     root: INFO
