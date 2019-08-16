@@ -9,7 +9,7 @@
 
   <modules>
    <module>microservice-config-client</module>
-<!--    <module>microservice-config-client-authenticating</module>-->
+   <module>microservice-config-client-authenticating</module>
    <module>microservice-config-client-eureka</module>
    <module>microservice-config-client-eureka-authenticating</module>
    <module>microservice-config-client-refresh</module>
@@ -68,6 +68,7 @@
    <module>microservice-sidecar-client-ribbon</module>
    <module>microservice-simple-consumer-movie</module>
    <module>microservice-simple-consumer-movie-trace</module>
+   <module>microservice-simple-consumer-movie-trace-zipkin</module>
    <module>microservice-simple-provider-user</module>
    <module>microservice-simple-provider-user-trace</module>
    <module>microservice-simple-provider-user-trace-elk</module>
