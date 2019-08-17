@@ -15,7 +15,7 @@
    <module>microservice-config-client-refresh</module>
    <module>microservice-config-client-refresh-cloud-bus</module>
    <module>microservice-config-server</module>
-<!--    <module>microservice-config-server-authenticating</module>-->
+   <module>microservice-config-server-authenticating</module>
    <module>microservice-config-server-encryption</module>
    <module>microservice-config-server-encryption-rsa</module>
    <module>microservice-config-server-eureka</module>
